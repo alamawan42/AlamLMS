@@ -1,0 +1,6 @@
+@LMS.PRESENTATION_HostAddress = http://localhost:5253
+
+GET {{LMS.PRESENTATION_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
