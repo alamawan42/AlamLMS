@@ -16,7 +16,8 @@ namespace LMS.PRESENTATION.Controllers
         public IActionResult Test()
         {
             var service = new EmailService();
-            var msg = service.SendMail();
+            var msg = "Email Sent";
+            //var msg = service.SendMail();
 
             return Ok(msg);
         }
